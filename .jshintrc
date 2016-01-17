@@ -1,0 +1,8 @@
+{
+  "undef": true,
+  "unused": true,
+  "esnext": true,
+  "predef": [ "Promise", "module", "console", "Buffer", "require", "__dirname", "angular" ],
+  "-W097": false,
+  "-W083": false
+}
