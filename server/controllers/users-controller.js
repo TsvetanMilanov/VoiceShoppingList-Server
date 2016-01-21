@@ -71,7 +71,7 @@ module.exports = {
       }
 
       res.status(201)
-        .json(data);
+        .json(mapper.mapToUserResponseModel(data));
     });
   },
   getById: function(req, res, next) {
